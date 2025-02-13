@@ -9,6 +9,7 @@
 
 namespace Focotik\Blocks;
 
+use Focotik\Blocks\Variations\Btn_Cancel;
 use Focotik\Blocks\Variations\Btn_Orange_Color;
 use Focotik\Blocks\Variations\Btn_White_Color;
 use Focotik\Blocks\Variations\Case_Study_Query_Loop;
@@ -54,6 +55,7 @@ class Variations
 	public function focotik_register_block_styles()
 	{
 		// Register block variations.
+		Btn_Cancel::get_instance();
 		Btn_Orange_Color::get_instance();
 		Btn_White_Color::get_instance();
 		Case_Study_Query_Loop::get_instance();
