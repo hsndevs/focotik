@@ -11,9 +11,9 @@ class Btn_Cancel
         register_block_style('core/button', array(
             'name'         => 'btn-cancel-color',
             'label'        => __('BTN Cancel', 'focotik'),
-            'inline_style' => '.wp-block-button.is-style-btn-cancel-color {
+            'inline_style' => '.wp-block-button.is-style-btn-cancel-color .wp-block-button__link{
 				background-color: transparent;
-				color: #FF0;
+				color: #F00;
 				padding: 5px 10px;
 			}'
         ));

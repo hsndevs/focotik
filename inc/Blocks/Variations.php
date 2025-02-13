@@ -55,8 +55,9 @@ class Variations
 	public function focotik_register_block_styles()
 	{
 		// Register block variations.
-		Btn_Cancel::get_instance();
 		Btn_Orange_Color::get_instance();
+		Btn_Cancel::get_instance();
+
 		Btn_White_Color::get_instance();
 		Case_Study_Query_Loop::get_instance();
 		Grid_Gradient::get_instance();
