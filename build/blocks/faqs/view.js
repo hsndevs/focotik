@@ -1,0 +1,1 @@
+(()=>{console.log("Hello World! (from focotik-faqs block)");const e=document.querySelectorAll(".accordion-item");e.forEach((o=>{o.querySelector(".accordion-item-title").addEventListener("click",(()=>{e.forEach((e=>e!==o&&e.classList.remove("is-selected"))),o.classList.toggle("is-selected")}))}))})();

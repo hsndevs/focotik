@@ -1,1 +1,1 @@
-console.log("Hello World! (from create-block-testimonial-item block)");
+console.log("Hello World! (from focotik-testimonial-item block)");
