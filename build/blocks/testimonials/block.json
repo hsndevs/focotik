@@ -9,6 +9,10 @@
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
+    "align": [
+      "full",
+      "wide"
+    ],
     "html": false
   },
   "attributes": {
