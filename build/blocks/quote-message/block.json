@@ -12,6 +12,10 @@
     "html": false
   },
   "attributes": {
+    "fontSize": {
+      "type": "string",
+      "default": "16px"
+    },
     "content": {
       "type": "string",
       "source": "html",
@@ -38,6 +42,12 @@
       "default": {
         "left": "0px",
         "right": "0px"
+      }
+    },
+    "vlinePosition": {
+      "type": "object",
+      "default": {
+        "top": "0px"
       }
     }
   },
